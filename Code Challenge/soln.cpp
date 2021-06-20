@@ -178,7 +178,7 @@ void DFSInclude(int indx,vector<Block> &blocks)
 
     dfsBlocksInclude(blocks);
 
-    ofstream fout("MempoolOutput.txt");
+    ofstream fout("mempoolOutput.txt");
     for (auto i : printedBlocks)
     {
       fout<<blocks[i].txid<<"\n";
